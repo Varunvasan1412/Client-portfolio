@@ -4,7 +4,7 @@ const timelineData = {
       start_date: { year: 2018, month: 5, day: 23 },
       text: {
         headline: "10th standard",
-        text: "Graduated 10th standard with a 95 percentile, attaining the top rank in school through consistent performance.",
+        text: "Achieved School First Rank in SSLC (10th Standard) by scoring 475 marks (95%).",
       },
       media: {
         url: "images/photo1.webp",
@@ -14,7 +14,7 @@ const timelineData = {
       start_date: { year: 2020, month: 3, day: 24 },
       text: {
         headline: "12th standard",
-        text: "Completed 12th standard with 74.33%, maintaining a steady academic record.",
+        text: "Secured 74.33% in Higher Secondary Certificate (HSC) Examination.",
       },
       media: {
         url: "images/photo3.webp",
@@ -34,7 +34,7 @@ const timelineData = {
       start_date: { year: 2022, month: 8, day: 27 },
       text: {
         headline: "National Cyber Safety and Security Standards Summit",
-        text: "Attended the XVI Edition ... cybersecurity initiatives.",
+        text: "Engaged in intensive workshops during the National Cyber Safety and Security Standards Summit '22(XVI Edition) collaborating with 15+ cybersecurity experts to develop actionable strategies at Coimbatore.",
       },
       media: {
         url: "images/photo5.webp",
@@ -44,7 +44,7 @@ const timelineData = {
       start_date: { year: 2022, month: 4, day: 8 },
       text: {
         headline: "IOT workshop",
-        text: "Actively engaged in a hands-on IoT workshop conducted by HAM CLUB ...",
+        text: " Completed an intensive IoT workshop at KPR Institute of Engineering and Technology in Coimbatore",
       },
       media: {
         url: "images/photo6.webp",
@@ -80,6 +80,18 @@ const timelineData = {
         url: "images/photo9.webp",
       },
     },
+
+    {
+      start_date: { year: 2024, month: 4 },
+      text: {
+        headline: "Placement Achiever",
+        text: "Awarded the Placement Achiever Award - April 2024 for outstanding performance in campus recruitment.",
+      },
+      media: {
+        url: "images/placement.webp",
+      },
+    },
+
     {
       start_date: { year: 2024, month: 7, day: 30 },
       text: {
