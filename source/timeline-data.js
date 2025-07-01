@@ -37,7 +37,7 @@ const timelineData = {
         text: "Engaged in intensive workshops during the National Cyber Safety and Security Standards Summit '22(XVI Edition) collaborating with 15+ cybersecurity experts to develop actionable strategies at Coimbatore.",
       },
       media: {
-        url: "images/photo5.webp",
+        url: "images/cyber-safety.webp",
       },
     },
     {
@@ -47,7 +47,7 @@ const timelineData = {
         text: " Completed an intensive IoT workshop at KPR Institute of Engineering and Technology in Coimbatore",
       },
       media: {
-        url: "images/photo6.webp",
+        url: "images/IOT-workshop.webp",
       },
     },
     {
@@ -57,7 +57,17 @@ const timelineData = {
         text: "Presented a technical paper in a topic of ChatGPT at PHOENIX '23...",
       },
       media: {
-        url: "images/photo7.webp",
+        url: "images/presentation-Mahendra.webp",
+      },
+    },
+    {
+      start_date: { year: 2023, month: 4, day: 12 },
+      text: {
+        headline: "Technical Quiz",
+        text: "Engaged in the Technical Quiz at PHOENIX '23, exploring diverse concepts in science and technology.",
+      },
+      media: {
+        url: "images/technical-quiz-PGP.webp",
       },
     },
     {
@@ -67,7 +77,7 @@ const timelineData = {
         text: "Participated in EGLITZ '22 ... BIG DATA research-driven insights.",
       },
       media: {
-        url: "images/photo8.webp",
+        url: "images/presentation-PGP.webp",
       },
     },
     {
