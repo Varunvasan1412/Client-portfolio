@@ -7,17 +7,7 @@ const timelineData = {
         text: "Graduated 10th standard with a 95 percentile, attaining the top rank in school through consistent performance.",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1580974852861-c381510bc98a",
-      },
-    },
-    {
-      start_date: { year: 2019, month: 4, day: 1 },
-      text: {
-        headline: "11th standard",
-        text: "Graduated 10th standard with a 95 percentile, attaining the top rank in school through consistent performance.",
-      },
-      media: {
-        url: "https://images.unsplash.com/photo-1604525241109-c3b7eecf4add",
+        url: "images/photo1.webp",
       },
     },
     {
@@ -27,7 +17,7 @@ const timelineData = {
         text: "Completed 12th standard with 74.33%, maintaining a steady academic record.",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1587613754067-13e9a170b42f",
+        url: "images/photo3.webp",
       },
     },
     {
@@ -37,7 +27,7 @@ const timelineData = {
         text: "Enrolled in B.E. Computer Science and Engineering at Vivekanandha College of Technology for Women.",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1462536943532-57a629f6cc60",
+        url: "images/photo4.webp",
       },
     },
     {
@@ -47,7 +37,7 @@ const timelineData = {
         text: "Attended the XVI Edition ... cybersecurity initiatives.",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
+        url: "images/photo5.webp",
       },
     },
     {
@@ -57,7 +47,7 @@ const timelineData = {
         text: "Actively engaged in a hands-on IoT workshop conducted by HAM CLUB ...",
       },
       media: {
-        url: "https://plus.unsplash.com/premium_photo-1688678097473-2ce11d23e30c",
+        url: "images/photo6.webp",
       },
     },
     {
@@ -67,7 +57,7 @@ const timelineData = {
         text: "Presented a technical paper in a topic of ChatGPT at PHOENIX '23...",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1675557009483-e6cf3867976b",
+        url: "images/photo7.webp",
       },
     },
     {
@@ -77,7 +67,7 @@ const timelineData = {
         text: "Participated in EGLITZ '22 ... BIG DATA research-driven insights.",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41",
+        url: "images/photo8.webp",
       },
     },
     {
@@ -87,7 +77,7 @@ const timelineData = {
         text: "Awarded First Class with Distinction in Typewriting (English)...",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50",
+        url: "images/photo9.webp",
       },
     },
     {
@@ -97,7 +87,7 @@ const timelineData = {
         text: "Attained Oracle Cloud Infrastructure Generative AI Certification...",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1662947774441-a54156b6e503",
+        url: "images/photo10.webp",
       },
     },
     {
@@ -108,7 +98,7 @@ const timelineData = {
         text: "Improved the Efficiency ... Balanced Workload Distribution",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
+        url: "images/photo11.webp",
       },
     },
     {
@@ -118,7 +108,7 @@ const timelineData = {
         text: "Focused on Automating the categorization ... improving search-ability.",
       },
       media: {
-        url: "https://i.postimg.cc/tg20y2h5/image.png",
+        url: "images/photo12.webp",
       },
     },
     {
@@ -128,7 +118,7 @@ const timelineData = {
         text: "Developed simple User-Friendly Blog using WordPress ...",
       },
       media: {
-        url: "https://cdn.pixabay.com/photo/2015/03/22/15/26/blog-684748_1280.jpg",
+        url: "images/photo13.webp",
       },
     },
     {
@@ -138,7 +128,7 @@ const timelineData = {
         text: "Earned a B.E. degree in Computer Science and Engineering with a CGPA of 8.39...",
       },
       media: {
-        url: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f",
+        url: "images/photo14.webp",
       },
     },
   ],

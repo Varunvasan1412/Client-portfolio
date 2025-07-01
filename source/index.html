@@ -45,8 +45,7 @@
       <spline-viewer
         class="planet-3D"
         url="https://prod.spline.design/uPYRLWG0cOqfBaAW/scene.splinecode"
-      >
-      </spline-viewer>
+      ></spline-viewer>
     </main>
 
     <section class="about-section">
@@ -65,12 +64,7 @@
           </p>
 
           <img src="images/gradient.png" alt="" class="background-img" />
-          <div class="model-box">
-            <spline-viewer
-              class="info-3D"
-              url="https://prod.spline.design/ASpZLRcb1AD9pxmi/scene.splinecode"
-            ></spline-viewer>
-          </div>
+          <div class="model-box"></div>
         </div>
         <div class="card tech">
           <h2 class="card-title">TECH STACK</h2>
@@ -124,55 +118,55 @@
     </section>
 
     <section class="contact-section">
-      <div
-        class="section-header"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
-      >
+      <div class="section-header">
         <h3>Get In Touch</h3>
         <p>
           Have a project in mind or just want to say hello? Drop me a message
         </p>
       </div>
 
-      <div
-        class="contact-grid"
-        data-aos="fade-zoom-in"
-        data-aos-easing="ease-in-back"
-        data-aos-delay="300"
-        data-aos-offset="0"
-        data-aos-duration="1500"
-      >
+      <div class="contact-grid">
         <div class="info-card">
           <h3>Contact info</h3>
 
           <div class="contact-item">
             <p>Email</p>
-            <a href="#">hello@example.com</a>
+            <a href="mailto:indiandharanibe83@gmail.com"
+              >indiandharanibe83@gmail.com</a
+            >
           </div>
 
           <div class="contact-item">
             <p>Phone</p>
-            <a href="#">94433-86176</a>
+            <a href="tel:+919443386176">94433-86176</a>
           </div>
 
           <div class="contact-item">
             <p>Location</p>
-            <a href="#">Tamil Nadu, India</a>
+            <a
+              href="https://www.google.com/maps/place/Tamil+Nadu,+India"
+              target="_blank"
+              rel="noopener"
+              >Tamil Nadu, India</a
+            >
           </div>
 
           <div class="social-link">
-            <p>Contacy with me</p>
-            <a href="#">GitHub</a>
-            <a href="#">Linkedin</a>
+            <p>Contact with me</p>
+            <a
+              href="https://github.com/dharanicsetech"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/dharani-java-dev">Linkedin</a>
             <a href="#">Twitter</a>
           </div>
         </div>
 
         <div class="info-card">
           <div class="info-card-content">
-            <h3>Send Message</h3>
+            <h3 id="send-message">Send Message</h3>
 
             <form id="contactForm">
               <div class="form-group">
@@ -236,7 +230,9 @@
       <div class="box-icons">
         <a href="#"><i class="bx bxl-instagram"></i></a>
         <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.linkedin.com/in/dharani-java-dev"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
       </div>
     </footer>
 
@@ -245,10 +241,61 @@
       src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"
     ></script>
 
-    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-    <script src="timeline-data.js"></script>
-
     <script src="app.js" defer></script>
     <script src="main.js" defer></script>
+
+    <script defer>
+      // Lazy load Timeline and second Spline model
+      document.addEventListener("DOMContentLoaded", () => {
+        // Timeline
+        const timelineObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const script = document.createElement("script");
+                script.src =
+                  "https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js";
+                script.onload = () => {
+                  const dataScript = document.createElement("script");
+                  dataScript.src = "timeline-data.js";
+                  dataScript.onload = () => {
+                    new TL.Timeline("my_tl", timelineData);
+                  };
+                  document.body.appendChild(dataScript);
+                };
+                document.body.appendChild(script);
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.3 }
+        );
+
+        const timelineSection = document.querySelector(".timeline");
+        if (timelineSection) timelineObserver.observe(timelineSection);
+
+        // Lazy-load 2nd spline model
+        const splineObserver = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const viewer = document.createElement("spline-viewer");
+                viewer.setAttribute(
+                  "url",
+                  "https://prod.spline.design/ASpZLRcb1AD9pxmi/scene.splinecode"
+                );
+                viewer.classList.add("info-3D");
+                entry.target.appendChild(viewer);
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.3 }
+        );
+
+        const modelBox = document.querySelector(".model-box");
+        if (modelBox) splineObserver.observe(modelBox);
+      });
+    </script>
   </body>
 </html>
