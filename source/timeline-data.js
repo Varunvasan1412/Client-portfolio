@@ -127,7 +127,7 @@ const timelineData = {
       start_date: { year: 2023, month: 4, day: 27 },
       text: {
         headline: "Autonomous Tagging of Stack Overflow",
-        text: "Created a classifier model for auto-tagging technical questions using NLP. - Improved searchability and reduced manual categorization",
+        text: "Created a classifier model for auto-tagging technical questions using NLP. <br><br>Improved searchability and reduced manual categorization",
       },
       media: {
         url: "images/photo12.webp",
@@ -137,7 +137,7 @@ const timelineData = {
       start_date: { year: 2023, month: 10 },
       text: {
         headline: "Create Blog using WordPress",
-        text: "Created a blog website using WordPress to share content online. - Learned the basics of content management and user interaction through this project.",
+        text: "Created a blog website using WordPress to share content online.<br><br>Learned the basics of content management and user interaction through this project.",
       },
       media: {
         url: "images/photo13.webp",
