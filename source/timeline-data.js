@@ -54,10 +54,10 @@ const timelineData = {
       start_date: { year: 2023, month: 4, day: 12 },
       text: {
         headline: "Paper Presentation",
-        text: "Presented a technical paper in a topic of ChatGPT at PHOENIX '23...",
+        text: "Delivered an in-depth Technical presentation on ChatGPT to a 150+ audience, highlighting specific use cases.",
       },
       media: {
-        url: "images/presentation-Mahendra.webp",
+        url: "  images/presentation-PGP.webp",
       },
     },
     {
@@ -74,10 +74,10 @@ const timelineData = {
       start_date: { year: 2022, month: 9, day: 21 },
       text: {
         headline: "Paper Presentation",
-        text: "Participated in EGLITZ '22 ... BIG DATA research-driven insights.",
+        text: "Presented a detailed paper on BIG DATA at Mahendra College of Engineering, focused on efficient data processing techniques, received positive feedback from over 80% of attendees.",
       },
       media: {
-        url: "images/presentation-PGP.webp",
+        url: "images/presentation-Mahendra.webp  ",
       },
     },
     {
@@ -117,7 +117,7 @@ const timelineData = {
       text: {
         headline:
           "An Effective Load-Balancing Framework for resource scheduling in healthcare",
-        text: "Improved the Efficiency ... Balanced Workload Distribution",
+        text: "The proposed approach employs real-time monitoring of system resources and workload distribution to allocate resources based on demand fluctuations dynamically",
       },
       media: {
         url: "images/photo11.webp",
@@ -127,7 +127,7 @@ const timelineData = {
       start_date: { year: 2023, month: 4, day: 27 },
       text: {
         headline: "Autonomous Tagging of Stack Overflow",
-        text: "Focused on Automating the categorization ... improving search-ability.",
+        text: "Created a classifier model for auto-tagging technical questions using NLP. - Improved searchability and reduced manual categorization",
       },
       media: {
         url: "images/photo12.webp",
@@ -137,7 +137,7 @@ const timelineData = {
       start_date: { year: 2023, month: 10 },
       text: {
         headline: "Create Blog using WordPress",
-        text: "Developed simple User-Friendly Blog using WordPress ...",
+        text: "Created a blog website using WordPress to share content online. - Learned the basics of content management and user interaction through this project.",
       },
       media: {
         url: "images/photo13.webp",

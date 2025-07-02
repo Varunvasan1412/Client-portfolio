@@ -309,7 +309,7 @@ main h2 {
 .model-box {
   position: absolute;
   right: 20%;
-  top: -52%;
+  top: -40%;
   width: 25rem;
   height: 25rem;
 }
@@ -352,22 +352,25 @@ main h2 {
     letter-spacing: 0;
   }
 
+  .about-section {
+    height: auto !important;
+    width: fit-content !important;
+    min-height: 40vh;
+    padding-bottom: 5rem;
+  }
   @media (max-width: 768px) {
     .about-section {
       height: auto !important;
+      width: fit-content !important;
       min-height: 100vh;
       padding-bottom: 5rem;
-    }
-
-    #my_tl {
-      margin-top: 5rem;
     }
   }
 
   .bento-grid {
     position: relative;
     display: grid;
-    height: 80vh;
+    height: 30vh;
     width: 100%;
     grid-template-columns: auto auto;
     grid-template-areas:
@@ -377,17 +380,18 @@ main h2 {
 
   .intro {
     grid-area: intro;
-    min-height: 200px;
-    min-width: 300px;
+    height: 500px;
+    width: 400px;
   }
+
   .tech {
     grid-area: tech;
-    height: 700px;
-    min-width: 250px;
+    height: 500px;
+    min-width: 350px;
   }
   .time {
     grid-area: time;
-    min-height: 220px;
+    height: 220px;
     min-width: 250px;
   }
   .passion {
@@ -403,17 +407,16 @@ main h2 {
 
   .card-text {
     line-height: 1.3;
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
 
   .model-box {
-    right: 10%;
-    top: 18%;
+    right: 50%;
+    top: 10%;
+    width: 24rem;
+    height: 24rem;
   }
 
-  .intro {
-    min-height: 700px;
-  }
   .time {
     grid-area: time;
     min-height: 300px;
@@ -430,6 +433,10 @@ main h2 {
 
   .slider .list {
     min-width: calc(30rem * var(--quantity));
+  }
+
+  .timeline {
+    padding-top: 30rem;
   }
 }
 
@@ -479,7 +486,11 @@ main h2 {
 
   .model-box {
     right: 50%;
-    top: 27%;
+    top: 20%;
+  }
+
+  .timeline {
+    padding-top: 1px;
   }
 }
 
